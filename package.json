@@ -1,6 +1,6 @@
 {
   "name": "is-real-object",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns `true` if a value is any type of object, but not an array. Browserify-ready.",
   "repository": "tunnckoCore/is-real-object",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
