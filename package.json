@@ -1,0 +1,35 @@
+{
+  "name": "is-real-object",
+  "version": "0.0.0",
+  "description": "Returns `true` if a value is any type of object, but not array.",
+  "repository": "tunnckoCore/is-real-object",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "is-extendable": "^0.1.1",
+    "isarray": "0.0.1"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "array",
+    "assign",
+    "check",
+    "date",
+    "extend",
+    "extensible",
+    "function",
+    "is",
+    "object",
+    "regex",
+    "test"
+  ]
+}
