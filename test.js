@@ -5,7 +5,7 @@
  * Released under the MIT license.
  */
 
-/* jshint asi:true */
+/* jshint ignore:start */
 
 'use strict'
 
@@ -70,3 +70,5 @@ test('should return `false` when a value is not an object or is array', function
   notOk(isRealObject())
   done()
 })
+
+/* jshint ignore:end */
