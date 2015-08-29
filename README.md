@@ -1,6 +1,6 @@
 # [is-real-object][author-www-url] [![npmjs.com][npmjs-img]][npmjs-url] [![The MIT License][license-img]][license-url] 
 
-> Returns `true` if a value is any type of object, but not an array.
+> Returns `true` if a value is any type of object, but not an array. [Browserify](http://browserify.org/)-ready.
 
 [![standard code style][standard-img]][standard-url] [![travis build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![dependency status][david-img]][david-url]
 
