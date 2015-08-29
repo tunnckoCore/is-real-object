@@ -74,6 +74,14 @@ isRealObject()
 ```
 
 
+## Related
+- [is-extendable](https://github.com/jonschlinkert/is-extendable): Returns true if a value is any of the object types: array, regexp, plain object, function or date. This is useful for determining if a value can be extended, e.g. "can the value have keys?"
+- [is-obj](https://github.com/sindresorhus/is-obj): Check if a value is an object
+- [is-plain-obj](https://github.com/sindresorhus/is-plain-obj): Check if a value is a plain object
+- [is-plain-object](https://github.com/jonschlinkert/is-plain-object): Returns true if an object was created by the `Object` constructor.
+- [isobject](https://github.com/jonschlinkert/isobject): Returns true if the value is an object and not an array or null.
+
+
 ## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/is-real-object/issues/new).  
 But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.
