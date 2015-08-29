@@ -4,6 +4,10 @@
 
 [![standard code style][standard-img]][standard-url] [![travis build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![dependency status][david-img]][david-url]
 
+## Why?!
+Yea, that's it! Yea, it's so simple as `!isArray && isObject`. Because all of the others checks that given value [is-object](https://github.com/jonschlinkert/isobject) or [is-plain-object](https://github.com/jonschlinkert/is-plain-object), or even [is-extendable](https://github.com/jonschlinkert/isobject) and [is-obj](https://github.com/sindresorhus/is-obj). And last two are absolutely the same things - returns `true` if a value is any type of object, including array-ish values.  
+That being said, just it isn't okey for me to pass array value as `options` object for example.
+
 
 ## Install
 ```
