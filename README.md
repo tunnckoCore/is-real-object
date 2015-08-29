@@ -75,7 +75,7 @@ isRealObject()
 
 
 ## Related
-- [is-extendable](https://github.com/jonschlinkert/is-extendable): Returns true if a value is any of the object types: array, regexp, plain object, function or date. This is useful for determining if a value can be extended, e.g. "can the value have keys?"
+- [is-extendable](https://github.com/jonschlinkert/is-extendable): Returns true if a value is any of the object types: array, regexp, plain object, function or date. This is useful for determining if a value can be extended,… [more](https://github.com/jonschlinkert/is-extendable)
 - [is-obj](https://github.com/sindresorhus/is-obj): Check if a value is an object
 - [is-plain-obj](https://github.com/sindresorhus/is-plain-obj): Check if a value is a plain object
 - [is-plain-object](https://github.com/jonschlinkert/is-plain-object): Returns true if an object was created by the `Object` constructor.
