@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "is-extendable": "^0.1.1",
-    "isarray": "0.0.1"
+    "isarray": "^1.0.0"
   },
   "devDependencies": {
     "assertit": "^0.1.0"
