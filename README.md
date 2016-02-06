@@ -19,7 +19,7 @@ npm i is-real-object --save
 > For more use-cases see the [tests](./test.js)
 
 ```js
-var isRealObject = require('is-real-object')
+const isRealObject = require('is-real-object')
 ```
 
 ### returns `true`
@@ -99,7 +99,7 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 [npmjs-url]: https://www.npmjs.com/package/is-real-object
 [npmjs-img]: https://img.shields.io/npm/v/is-real-object.svg?label=is-real-object
 
-[license-url]: https://github.com/tunnckoCore/is-real-object/blob/master/LICENSE.md
+[license-url]: https://github.com/tunnckoCore/is-real-object/blob/master/LICENSE
 [license-img]: https://img.shields.io/badge/license-MIT-blue.svg
 
 
@@ -137,5 +137,5 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 [freenode-url]: http://webchat.freenode.net/?channels=charlike
 [freenode-img]: https://img.shields.io/badge/freenode-%23charlike-5654a4.svg
 
-[new-message-url]: https://github.com/tunnckoCore/messages
+[new-message-url]: https://github.com/tunnckoCore/ama
 [new-message-img]: https://img.shields.io/badge/ask%20me-anything-green.svg

@@ -4,6 +4,7 @@
   "description": "Returns `true` if a value is any type of object, but not an array. Browserify-ready.",
   "repository": "tunnckoCore/is-real-object",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "precommit.silent": true,
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -14,7 +15,8 @@
     "isarray": "^1.0.0"
   },
   "devDependencies": {
-    "assertit": "^0.1.0"
+    "assertit": "^0.1.0",
+    "pre-commit": "*"
   },
   "files": [
     "index.js"
@@ -28,6 +30,7 @@
     "extensible",
     "function",
     "is",
+    "is-real-object",
     "object",
     "regex",
     "test"

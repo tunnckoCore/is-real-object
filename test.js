@@ -1,7 +1,7 @@
 /*!
  * is-real-object <https://github.com/tunnckoCore/is-real-object>
  *
- * Copyright (c) 2015 Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)
+ * Copyright (c) 2015-2016 Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)
  * Released under the MIT license.
  */
 
@@ -13,6 +13,7 @@ var isRealObject = require('./index')
 function ok (val) {
   return test.strictEqual(val, true)
 }
+
 function notOk (val) {
   return test.strictEqual(val, false)
 }
@@ -44,6 +45,7 @@ test('should return `true` when a value is an object', function (done) {
   ok(isRealObject(Object('foo')))
   done()
 })
+
 test('should return `false` when a value is not an object or is array', function (done) {
   notOk(isRealObject(new Array())) // eslint-disable-line no-array-constructor
   notOk(isRealObject(new Array(2)))
