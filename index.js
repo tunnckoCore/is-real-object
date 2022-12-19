@@ -7,7 +7,7 @@
 
 'use strict'
 
-var isArray = require('isarray')
+var isArray = Array.isArray
 var isObject = require('is-extendable')
 
 module.exports = function isRealObject (val) {
